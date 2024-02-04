@@ -13,7 +13,8 @@ SET(CMAKE_STATIC_LIBRARY_SUFFIX ".a")
 set(CMAKE_C_COMPILER "sparc-gaisler-rtems5-gcc")
 set(CMAKE_CXX_COMPILER "sparc-gaisler-rtems5-g++")
 set(CMAKE_SYSTEM_NAME Generic)
-set(CMAKE_C_FLAGS "-qbsp=gr740")
+#set(CMAKE_C_FLAGS "-qbsp=gr740")
+set(CMAKE_C_FLAGS "-qbsp=leon3")
 set(CMAKE_CXX_FLAGS ${CMAKE_C_FLAGS})
 
 # acados flags
